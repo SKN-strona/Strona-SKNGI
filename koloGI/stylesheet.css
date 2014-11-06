@@ -1,0 +1,76 @@
+body div{
+	border: 1px solid black;
+}
+
+body{
+	background-color: #ecf0f1;	
+}
+
+.hero {
+	height: 400px;
+	background-image: url("img/hero.jpg");
+}
+
+.h_title{
+	position: relative;
+	float: left;
+	height: 200px;
+	width: 50%;
+	padding-top: 80px;
+}
+
+
+.logo_container{
+	position: relative;
+	float: right;
+}
+
+.logo_container div{
+	width: 100px;
+	height: 100px;
+	padding: 10px 5px 10px 5px;
+}
+
+#logo_SKN{
+	position: relative;
+	float:left;	
+}
+
+#logo_SKN div{
+	width: 50px;	
+}
+
+#logo_WIKSIG{
+	position: relative;
+	float: right;
+}
+
+#logo_WIKSIG div{
+	width: 50px;
+}
+
+
+.menu_container{
+	width: 954px;
+	margin: auto;
+	height: 60px;
+	padding-top: 10px;
+
+}
+
+.menu_container div{
+	display: inline-block;
+	width: 150px;
+	background-color: #e67e22;
+
+}
+
+
+.page_container{
+	height: 400px;
+}
+
+
+.footer_container{
+	height: 200px;
+}
