@@ -42,3 +42,6 @@ body div {
 	background-image: url("pictures/Turquoise.jpg");
 
 }
+.dropdown-menu {
+	width: 200px;
+}
