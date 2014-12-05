@@ -1,0 +1,44 @@
+body div {
+	/*border: 1px solid black; */
+}
+
+.jb-container div{
+	display: inline-block;
+}
+
+.jb-tekst {
+	width: 70%;
+	margin:30px;
+}
+
+.jb-logo{
+	width: 25%;
+	float: right;
+}
+
+.jb-logo img {
+	height: 120px;
+	width: 120px;	
+	float: right;	
+}
+
+.spotkanie {
+	border: 1px solid black;
+	height: 100px;
+	width: 60%;
+	margin: auto;
+	position:relative;
+	
+}
+
+.spotkanie > p {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-30%, -30%);
+}
+
+.jumbotron{
+	background-image: url("pictures/Turquoise.jpg");
+
+}
