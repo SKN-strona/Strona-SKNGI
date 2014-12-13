@@ -2,43 +2,139 @@ body div {
 	/*border: 1px solid black; */
 }
 
-.jb-container div{
-	display: inline-block;
-}
-
-.jb-tekst {
-	width: 70%;
-	margin:30px;
-}
-
-.jb-logo{
-	width: 25%;
-	float: right;
-}
-
-.jb-logo img {
-	height: 120px;
-	width: 120px;	
-	float: right;	
-}
-
-.spotkanie {
-	border: 1px solid black;
-	height: 100px;
-	width: 60%;
-	margin: auto;
-	position:relative;
-	
-}
-
-.spotkanie > p {
-	position: absolute;
-	top: 30%;
-	left: 30%;
-	transform: translate(-30%, -30%);
+body{
+	background-color: #E7E5F0;
 }
 
 .jumbotron{
 	background-image: url("pictures/Turquoise.jpg");
+	margin-top: -20px;
 
+}
+
+
+#jb-tekst {
+	padding: 10px 10px 10px 30px;
+}
+
+#jb-logo{
+	float: right;
+	padding-right: 20px;
+}
+
+#jb-logo img {
+	height: 120px;
+	width: 120px;	
+	float: right;	
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.navbar {
+/*	background-color: #34495e;*/
+	
+}
+
+.navbar-right{
+	margin-right: 25px;
+}
+
+.collapse .navabr-collapse >li{
+	color: #FFFFFF;
+}
+
+.navbar-right img{
+	position: relative;
+	margin-top: 10px;
+}
+
+
+.container{
+	background-color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.spotkanie {
+	position: relative;
+	height: 220px;
+	width: 70%;
+	border: 2px solid #286090;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 0 10px 10px;
+	
+}
+
+#info-spotk {
+		
+}
+
+/*.spotkanie > p {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	transform: translate(-30%, -30%);	
+}*/
+
+
+
+
+.col-md-4 {
+	width: 32%;
+	float: left;
+	margin-right: 10px;
+}
+
+
+.footer {
+	margin-top: 20px;
+}
+
+.ft-content {
+	height: 150px;
+	background-color: #34495e
+}
+
+.ft-content{
+	background-color: #2c3e50;					
+	padding: 10px 40px 100px 38px;
+	color: #BCB9CD;
+}
+
+.footer .terms-privacy {
+	position: relative;
+	float: left;
+	width: 200px;
+	margin-left: 190px;
+	padding-left: 20px;
+}
+
+.footer .contact {
+	position: relative;
+	float: right;
+	text-align: right;
+	margin-right: 190px;
+	padding-right: 10px;
+	width: 120px;
+}
+
+.footer .contact li{
+	display: block;
+}
+
+.footer a{
+	color: #BCB9CD;
+	text-decoration: none;
+	
+}
+
+.footer a:visited{
+	text-decoration: none;
+	color: #BCB9CD;
+}
+
+.footer a:hover{
+	text-decoration: none;
+	color: #ffffff;
 }
